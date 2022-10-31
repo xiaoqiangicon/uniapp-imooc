@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tab-container {
+  font-size: 28rpx;
+  height: 45px;
+  line-height: 45px;
+  background-color: #f7f7f7;
+}
+.tab-container .tab-box {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+}
+.tab-container .tab-box .scroll-view {
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.tab-container .tab-box .scroll-view .scroll-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.tab-container .tab-box .scroll-view .scroll-content .tab-item-box {
+  height: 100%;
+}
+.tab-container .tab-box .scroll-view .scroll-content .tab-item-box .tab-item {
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 0 15px;
+  position: relative;
+  color: #333;
+}
+.tab-container .tab-box .scroll-view .scroll-content .tab-item-box .tab-item-active {
+  color: #f94d2a;
+}
+.tab-container .tab-box .scroll-view .scroll-content .underline {
+  height: 2px;
+  width: 24px;
+  background-color: #f94d2a;
+  border-radius: 3px;
+  transition: .5s;
+  position: absolute;
+  bottom: 0;
+}
+
