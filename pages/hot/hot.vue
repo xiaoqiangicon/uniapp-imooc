@@ -1,5 +1,6 @@
 <template>
 	<view class="hot-container">
+		<view>test</view>
 		<image src="../../static/images/logo.png" mode="aspectFit" class="logo"></image>
 		<view class="search-box" @click="onToSearch">
 			<my-search placeholderText="uni-app 自定义组件"></my-search>
